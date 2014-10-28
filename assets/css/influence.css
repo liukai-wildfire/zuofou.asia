@@ -939,6 +939,10 @@ textarea.form-control {
 .bg-center {
     background-position: center center !important;
 }
+
+.bg-topcenter {
+    background-position: top center !important;
+}
 .bg-cover {
     background-size: cover !important;
 }
@@ -2321,3 +2325,8 @@ margin: 3px;
 line-height: 30px;
 }
 
+@media all and (max-width: 768px) {
+  .hideOnMobile {
+    display: none;
+  }
+}
