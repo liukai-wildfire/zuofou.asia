@@ -875,7 +875,7 @@ textarea.form-control {
         background: url("../img/1920w/scrum-board.jpg");
     }
     .bg-3 {
-        background: url("../img/appstore.jpg");
+        background: url("../img/1920w/mobile_app_design.jpg");
     }
     .bg-4 {
         background: url("../img/1920w/b4db71.jpg");
@@ -901,7 +901,7 @@ textarea.form-control {
         background: url("../img/1920w/scrum-board.jpg");
     }
     .bg-3 {
-        background: url("../img/appstore.jpg");
+        background: url("../img/1920w/mobile_app_design.jpg");
     }
     .bg-4 {
         background: url("../img/1920w/b4db71.jpg");
@@ -928,7 +928,7 @@ textarea.form-control {
         background: url("../img/1920w/7306.jpg");
     }
     .bg-12 {
-        background: url("../img/1920w/macbook-air-all-faded-and-stuff.jpg");
+        background: url("../img/1920w/hackathone.jpg");
     }
 }
 @media (min-width: 768px) {
@@ -2317,6 +2317,7 @@ margin-left: 50px;
 
 .content-box-text h3{
     margin-top: 0;
+    line-height: 36px;
 }
 
 #team .label-primary{
@@ -2327,6 +2328,15 @@ line-height: 30px;
 
 @media all and (max-width: 768px) {
   .hideOnMobile {
+    display: none;
+  }
+  .filling-section {
+    min-height: 250px;
+  }
+  
+}
+@media all and (min-width: 768px) {
+  .showOnMobile {
     display: none;
   }
 }
