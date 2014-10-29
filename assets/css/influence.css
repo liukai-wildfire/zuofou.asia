@@ -2296,7 +2296,10 @@ i.slidedown {
  *  ice
  * ===================================
  * */
-
+@font-face {
+  font-family: 'Lato';
+  src: local('Lato Regular'), local('Lato-Regular'), url(http://actsocial-static.qiniudn.com/google-Lato.woff) format('woff');
+}
 
 .content-box.style-one > .content-box-icon > i {
 width: 36px;
