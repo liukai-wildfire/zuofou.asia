@@ -18,10 +18,10 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "example@email.com";
+        $recipient = "princeicelk@gmail.com";
 
         // Set the email subject.
-        $subject = "New contact from $name";
+        $subject = "Zuofou ideas from $name";
 
         // Build the email content.
         $email_content = "Name: $name\n";
