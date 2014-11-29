@@ -867,7 +867,7 @@ textarea.form-control {
 }
 /* === Background Images === */
 
-@media (min-width: 1920px) {
+@media (min-width: 1024px) {
     .bg-1 {
         background: url("../img/1920w/F0490.jpg");
     }
@@ -893,7 +893,7 @@ textarea.form-control {
         background: url("../img/1920w/macbook-air-all-faded-and-stuff.jpg");
     }
 }
-@media (max-width: 1920px) {
+@media (max-width: 1024px) {
     .bg-1 {
         background: url("../img/1024/F0490.jpg");
     }
@@ -907,7 +907,7 @@ textarea.form-control {
         background: url("../img/1920w/b4db71.jpg");
     }
     .bg-5 {
-        background: url("../img/1920w/startup-minimum-viable-product-advice.jpg");
+        background: url("../img/startup-minimum-viable-product-advice.jpg");
     }
     .bg-6 {
         background: url("../img/1024/team_together.jpg");
